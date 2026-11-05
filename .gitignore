@@ -1,0 +1,12 @@
+# 依赖与构建产物
+node_modules/
+dist/
+.vercel/
+
+# 注意：`frontend/` 与 `src/` 是从 CloudSSH Worker 工程同步来的源码副本，
+# **需要提交到版本库**——Vercel 以本工程为 Root Directory 构建时只上传本目录，
+# 拿不到同级的 Worker 工程，必须依赖这份副本才能完成构建。
+#
+# 这两个目录由 `pnpm run sync` 生成/覆盖，**不要直接编辑**：
+# 要改 UI 请改 `CloudSSH-for cloudflare workers/frontend/src/`，
+# 然后在本工程执行 `pnpm run sync` 并提交同步结果。

@@ -1,0 +1,9 @@
+packages:
+  - '.'
+allowBuilds:
+  esbuild: true
+  sharp: true
+  workerd: true
+blockExoticSubdeps: true
+minimumReleaseAge: 10080
+trustPolicy: no-downgrade
