@@ -15,5 +15,5 @@
  *     凭据引到他控制的服务器。地址只允许来自本文件或构建期环境变量。
  */
 window.__CLOUDSSH_CONFIG__ = {
-  apiBaseUrl: 'https://sshplus.heey.cc.cd',
+  apiBaseUrl: 'https://plus.earth.indevs.in',
 };
